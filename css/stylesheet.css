@@ -1,0 +1,96 @@
+/* NavBar */
+/* Godt inspirert fra: https://www.w3schools.com/howto/howto_js_topnav.asp*/
+nav {
+  display: flex;
+  height: 70px;
+  background-color: #fff5ea;
+  justify-content: space-around;
+}
+
+nav a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+  color: #374464;
+}
+
+nav a:hover{
+  background: #386670;
+  color: #FCE38A;
+}
+
+.active {
+  border-bottom: 10px solid #374464;
+  padding-top: 10px;
+}
+/* NavBar end */
+
+/* Hover effekter over klikkbare objekter */
+.hover:hover {
+  background: #fff5ea;
+  color: #374464;
+}
+
+/* Sentrere bildet på index */
+.senter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Listen på "Fishingspots"*/
+.liste {
+  display: table;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+/* Justere bildet på "index" og "fishingPlaces" */
+.image {
+  max-width: 800px;
+}
+
+/* Justerer innholdet på "fishingPlaces" */
+.overordnetBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 3%;
+}
+
+/* Organiserer tekstinnholdet på "fishingPlaces" */
+.box1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+/* Organiserer innholdet på "About" */
+.box2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  justify-content: space-between;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+
+}
+
+/* Justerer bildet på "about" */
+.seize60{
+  width: 150%;
+  height: auto;
+}
+
+/* Endrer fargen på h1 */
+h1 {
+  color: #374464;
+}
