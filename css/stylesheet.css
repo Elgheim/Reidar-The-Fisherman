@@ -103,7 +103,8 @@ nav a:hover{
 
 /* Justerer bildet på "about" */
 .seize60{
-  width: 150px;
+  display: flex;
+  max-width: 250px;
   height: auto;
 }
 
