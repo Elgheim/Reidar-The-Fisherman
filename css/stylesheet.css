@@ -1,5 +1,20 @@
+/* Posisjonere dokuementene for å kunne plassere footer i bunnen */
+/* Brukte stackoverflow for å forstå hvordan binde footer til bunnen:
+https://stackoverflow.com/questions/3443606/make-footer-stick-to-bottom-of-page-correctly */
+/* Samt litt inspirasjon fra w3schools vedrørende samme tema: */
+/* https://www.w3schools.com/tags/tag_footer.asp */
+html {
+    position: relative;
+    min-height: 100%;
+}
+/* Endret bunnmargin for å samsvare med footer */
+body {
+    margin: 0 0 50px;
+    padding: 25px;
+}
+
 /* NavBar */
-/* Godt inspirert fra: https://www.w3schools.com/howto/howto_js_topnav.asp*/
+/* Inspirert fra: https://www.w3schools.com/howto/howto_js_topnav.asp*/
 nav {
   display: flex;
   height: 70px;
@@ -67,6 +82,7 @@ nav a:hover{
   display: flex;
   flex-direction: column;
   max-width: 80%;
+  padding-bottom: 100px;
 }
 
 /* Organiserer innholdet på "About" */
@@ -93,4 +109,16 @@ nav a:hover{
 /* Endrer fargen på h1 */
 h1 {
   color: #374464;
+}
+/* Binde footer til bunnen av siden, se kilder over HTML tag */
+footer {
+  text-align: center;
+  background-color: #fff5ea;
+  color: #374464;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
