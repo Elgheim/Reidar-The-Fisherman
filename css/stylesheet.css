@@ -97,13 +97,13 @@ nav a:hover{
   flex-direction: column;
   align-items: center;
   padding: 5%;
-  max-width: 60%;
+  max-width: 80%;
 
 }
 
 /* Justerer bildet på "about" */
 .seize60{
-  width: 150%;
+  width: 150px;
   height: auto;
 }
 
